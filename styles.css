@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.postimg.cc/NLvt7zkb/02eb0ca01e66f159962a8f41c35159de.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    margin: 0;
+    backdrop-filter: blur(5px);
+}
+
+.container {
+    text-align: center;
+    background-image: url('https://i.postimg.cc/NLvt7zkb/02eb0ca01e66f159962a8f41c35159de.jpg'); /* خلفية الصندوق */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    color: white; /* النص بلون أبيض للتباين */
+    margin-bottom: 50px; /* زيادة المسافة السفلية لرفع الصندوق */
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FFB534; /* اللون الأصفر المتدرج */
+    font-family: "Anton", sans-serif; /* نوع الخط */
+    font-weight: 700; /* الخط العريض */
+    text-shadow: 
+        1px 1px 0 #000, /* تأثير الظل الأسود */
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000;
+    background: rgba(0, 0, 0, 0.5); /* خلفية نصف شفافة لتحسين التباين */
+    padding: 10px; /* إضافة حشوة */
+    border-radius: 10px; /* زوايا دائرية */
+}
+
+p {
+    font-size: 16px; /* حجم الخط */
+    margin-bottom: 20px; /* المسافة أسفل الفقرة */
+    color: white; /* لون النص الأبيض */
+}
+
+.link {
+    display: flex;
+    align-items: center; /* محاذاة الأيقونات والنص عموديًا في المنتصف */
+    background: linear-gradient(45deg, #FF3A00, #FF3A00, #ffcc00); /* تدرج لوني */
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+    font-weight: bold; /* زيادة وضوح النص */
+    position: relative; /* تحديد موضع النسبي للعناصر الداخلية */
+}
+
+.icon {
+    width: 30px; /* تحديد عرض الأيقونة */
+    height: 30px; /* تحديد ارتفاع الأيقونة */
+    margin-right: 6px; /* إضافة مساحة بين الأيقونة والنص */
+}
+
+.link span {
+    flex: 1; /* يملأ المساحة المتبقية بعد الأيقونة */
+    text-align: center; /* محاذاة النص في المنتصف */
+}
+
+.highlight-complete {
+    color: #00FF00; /* لون أخضر ناصع */
+    font-weight: bold; /* الخط العريض */
+}
+
+.highlight-number {
+    color: #00FF00; /* اللون الأخضر */
+    font-weight: bold; /* الخط العريض */
+}
+
+.highlight-number1 {
+    color: #ffffff; /* اللون الأبيض للرقم */
+    font-weight: bold; /* الخط العريض */
+    font-size: 24px; /* حجم الخط */
+    border-radius: 4px; /* زوايا دائرية للخط */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* إضافة ظل نصي لجعل النص يبرز */
+}
+
+.footer-text {
+    text-align: center;
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    font-size: 20px;
+    color: #FFFFFF; /* لون أبيض ناصع للنص */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1); /* ظل أبيض ناصع */
+    letter-spacing: 1px;
+    background: none; /* إزالة التدرج */
+    color: #FFFFFF; /* لون أبيض ثابت للنص */
+}
